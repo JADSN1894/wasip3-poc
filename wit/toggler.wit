@@ -1,0 +1,10 @@
+package app-pkg:toggler@1.0.0;
+
+world toggler { 
+
+   record  toggler-wrapper {
+      inner: bool
+   }
+   
+   export toggle: func(inner: toggler-wrapper) -> toggler-wrapper;
+}

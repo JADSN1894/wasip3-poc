@@ -1,0 +1,26 @@
+# cli = "https://github.com/WebAssembly/wasi-cli/archive/v0.3.0-rc-2025-08-15.tar.gz"
+cli = { url = "https://github.com/WebAssembly/wasi-cli/archive/main.tar.gz", subdir = "wit-0.3.0-draft" }
+
+# clocks = "https://github.com/WebAssembly/wasi-clocks/archive/v0.2.7.tar.gz"
+clocks = { url = "https://github.com/WebAssembly/wasi-clocks/archive/main.tar.gz", subdir = "wit-0.3.0-draft" }
+
+# filesystem = "https://github.com/WebAssembly/wasi-filesystem/archive/v0.2.7.tar.gz"
+filesystem = { url = "https://github.com/WebAssembly/wasi-filesystem/archive/main.tar.gz", subdir = "wit-0.3.0-draft" }
+
+# gfx = "https://github.com/WebAssembly/wasi-gfx/archive/v0.2.7.tar.gz"
+# gfx = { url = "https://github.com/WebAssembly/wasi-gfx/archive/main.tar.gz", subdir = "wit-0.3.0-draft" }
+
+# http = "https://github.com/WebAssembly/wasi-http/archive/v0.2.7.tar.gz"
+http = { url = "https://github.com/WebAssembly/wasi-http/archive/main.tar.gz", subdir = "wit-0.3.0-draft" }
+
+# libc = "https://github.com/WebAssembly/wasi-libc/archive/main.tar.gz"
+io = "https://github.com/WebAssembly/wasi-io/archive/v0.2.7.tar.gz"
+
+# nn = "https://github.com/WebAssembly/wasi-nn/archive/v0.2.7.tar.gz"
+# nn = { url = "https://github.com/WebAssembly/wasi-nn/archive/main.tar.gz", subdir = "wit-0.3.0-draft" }
+
+# random = "https://github.com/WebAssembly/wasi-random/archive/v0.2.7.tar.gz"
+random = {  url = "https://github.com/WebAssembly/wasi-random/archive/main.tar.gz", subdir = "wit-0.3.0-draft" }
+
+# sockets = "https://github.com/WebAssembly/wasi-sockets/archive/v0.2.7.tar.gz"
+sockets = { url = "https://github.com/WebAssembly/wasi-sockets/archive/main.tar.gz", subdir = "wit-0.3.0-draft" }
