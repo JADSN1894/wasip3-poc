@@ -16,7 +16,7 @@ wasi = { version = "=0.14.3+wasi-0.2.4", default-features = false }
 wasm-bindgen = { version = "=0.2.101", default-features = false }
 wasmtime = { version = "=37.0.0", git = "https://github.com/bytecodealliance/wasip3-prototyping", branch = "main", default-features = false }
 wasmtime-wasi = { version = "=37.0.0", git = "https://github.com/bytecodealliance/wasip3-prototyping", branch = "main", default-features = false }
-wit-bindgen = { version = "=0.45.0", default-features = false }
+wit-bindgen = { version = "0.45.1", default-features = false }
 wit-bindgen-rt = { version = "=0.44.0", default-features = false }
 
 plugin = { path = "plugin" }
