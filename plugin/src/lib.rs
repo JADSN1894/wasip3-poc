@@ -16,17 +16,6 @@ wit_bindgen::generate!({
     generate_all,
 });
 
-// wit_bindgen::generate!({
-//     path: "../wasi-http/wit-0.3.0-draft",
-//     world: "wasi:http/proxy",
-//     async: {
-//         exports: [
-//             "wasi:http/handler@0.3.0-draft#handle",
-//         ]
-//     },
-//     generate_all,
-// });
-
 pub struct Toggler;
 
 impl Guest for Toggler {
