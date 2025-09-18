@@ -6,9 +6,9 @@ plugin-dev:
     mkdir -p wasm
     
     cargo build --package plugin --target wasm32-wasip2
-    # cp -v target/wasm32-wasip2/debug/plugin.wasm ./app/src/plugin.wasm
-    
+
     wasm-tools strip -vvv --all target/wasm32-wasip2/debug/plugin.wasm --output ./wasm/plugin.wasm
+    wasm-tools validate --features cm-async ./wasm/plugin.wasm
 
     rm -fv input.txt
     wasm-tools  print --skeleton ./wasm/plugin.wasm --output input.txt
