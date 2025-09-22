@@ -64,7 +64,7 @@ async fn main() -> AppResult<()> {
 
     let instance = linker.instantiate_async(&mut store, &component).await?;
     let func =
-        instance.get_typed_func::<(TogglerWrapper,), (TogglerWrapper,)>(&mut store, "toggle")?; // .ok_or(AppError::Custom("Error on get_func".into()))?;
+        instance.get_typed_func::<(TogglerWrapper,), (TogglerWrapper,)>(&mut store, "toggle")?;
 
     let (output,) = func
         .call_async(&mut store, (TogglerWrapper { inner: false },))
