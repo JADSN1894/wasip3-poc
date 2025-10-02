@@ -42,7 +42,8 @@
         "rust-analyzer.checkOnSave": true,
         // "rust-analyzer.check.command": "clippy",
         "explorer.compactFolders": false,
-        "rust-analyzer.inlayHints.implicitDrops.enable": true
+        "rust-analyzer.inlayHints.implicitDrops.enable": true,
+        "terminal.integrated.sendKeybindingsToShell": true
         // "rust-analyzer.rustfmt.overrideCommand": [
         //   "leptosfmt",
         //   "--stdin",

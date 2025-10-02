@@ -2,7 +2,8 @@
 cli = { url = "https://github.com/WebAssembly/wasi-cli/archive/main.tar.gz", subdir = "wit-0.3.0-draft" }
 
 # clocks = "https://github.com/WebAssembly/wasi-clocks/archive/v0.2.7.tar.gz"
-clocks = { url = "https://github.com/WebAssembly/wasi-clocks/archive/main.tar.gz", subdir = "wit-0.3.0-draft" }
+# clocks = { url = "https://github.com/WebAssembly/wasi-clocks/archive/main.tar.gz", subdir = "wit-0.3.0-draft" }
+clocks = { url = "https://github.com/WebAssembly/wasi-clocks/archive/09ae765521b2a174702a59f325d8cde9b930ea99.tar.gz", subdir = "wit-0.3.0-draft" }
 
 # filesystem = "https://github.com/WebAssembly/wasi-filesystem/archive/v0.2.7.tar.gz"
 filesystem = { url = "https://github.com/WebAssembly/wasi-filesystem/archive/main.tar.gz", subdir = "wit-0.3.0-draft" }
