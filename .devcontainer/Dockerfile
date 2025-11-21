@@ -1,5 +1,5 @@
 # Use an official base image as a parent image
-FROM rust:latest
+FROM rust:trixie
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive

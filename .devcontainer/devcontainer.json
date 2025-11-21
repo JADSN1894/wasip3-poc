@@ -4,7 +4,7 @@
     "dockerfile": "./Dockerfile"
   },
   "features": {
-    "ghcr.io/devcontainers/features/common-utils:2.5.4": {
+    "ghcr.io/devcontainers/features/common-utils:2.5.5": {
       "username": "vscode",
       "uid": 1000,
       "gid": 1000,
